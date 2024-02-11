@@ -16,7 +16,7 @@ public class WeatherController implements WeatherOperation{
   private WeatherService weatherService;
 
   @Override
-  public List<Weather> getWeathers() {
+  public Weather getWeathers() {
     return weatherService.getWeathers();
   }
   

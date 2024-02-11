@@ -1,0 +1,8 @@
+# String targetUrl = "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=flw&lang=tc";
+
+api: 
+  jsonplaceholder:
+    domain: "data.weather.gov.hk/weatherAPI/opendata"
+    endpoints: 
+      traditionalChinese: "/weather.php?dataType=flw&lang=tc"
+      english: "/weher.php?dataType=flw&lang=en"

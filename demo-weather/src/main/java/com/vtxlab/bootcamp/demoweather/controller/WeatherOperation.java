@@ -7,6 +7,6 @@ import com.vtxlab.bootcamp.demoweather.model.Weather;
 public interface WeatherOperation {
 
   @GetMapping(value = "/weathers" )
-  List<Weather> getWeathers() ;
+  Weather getWeathers() ;
   
 }
