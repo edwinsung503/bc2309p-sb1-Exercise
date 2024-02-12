@@ -1,4 +1,4 @@
-package com.vtxlab.bootcamp.infra;
+package com.vtxlab.bootcamp.demoweather.infra;
 
 public enum Scheme {
   

@@ -2,7 +2,7 @@
 
 api: 
   jsonplaceholder:
-    domain: "data.weather.gov.hk/weatherAPI/opendata"
+    domain: "data.weather.gov.hk"
     endpoints: 
-      traditionalChinese: "/weather.php?dataType=flw&lang=tc"
-      english: "/weher.php?dataType=flw&lang=en"
+      traditionalChinese: "/weatherAPI/opendata/weather.php?dataType=flw&lang=tc"
+      english: "/weatherAPI/opendata/weather.php?dataType=flw&lang=en"
